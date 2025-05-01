@@ -3,20 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Creating Responsive Flexbox and Grid Layout</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="CSS-introduction">
-        <h1 id="primary-header">Introduction to CSS</h1>
-
-        <p class="paragraph-style">Cascading Style Sheets (CSS) is a powerful tool used in web design to control the layout, appearance, and formatting of HTML documents. It allows developers to create visually appealing web pages by defining styles for elements such as text, colors, spacing, and positioning. With CSS, developers can achieve a consistent and responsive design across different devices and screen sizes. By separating content (HTML) from presentation (CSS), it also enhances maintainability and scalability of web projects.</p>
-
-        <img class="image-style" src="css.png" alt="Cascading Style Sheets">
-
-        <p class="paragraph-style">CSS provides a range of styling options, including the ability to adjust fonts, colors, backgrounds, borders, and even animations. It uses selectors to target specific HTML elements, making it highly versatile for designing layouts, such as grids and flexbox models, which adapt to varying screen sizes. CSS also supports advanced features like media queries for responsive design, ensuring that web pages look great on desktops, tablets, and smartphones. Overall, CSS plays a crucial role in enhancing both the aesthetics and functionality of websites.</p>
-
-    </div>
     
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="container">
+            <div class="sidebar">
+                <h2>sidebar</h2>
+                <p>Welcome to our sidebar! Here are some useful links and resources: </p>
+                <ul>
+                    <li><a href="#">Latest News</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Upcoming Events</a></li>
+                    <li><a href="#">Contact Support</a></li>
+                </ul>
+            </div>
+
+            <div class="Main content">
+                <h1>Welcome to Our website</h1>
+                <p>
+                    Our website is dedicated to delivering insightful articles, tutorials, and resources to help you grow your digital skills.
+                    Whether you're a beginner or a seasoned developer, you'll find valuable tips and guides that make learning web design 
+                    and development easier, more enjoyable, and highly effective in today’s fast-paced tech world.
+                </p>
+                    
+                <p>
+                    We believe in responsive and user-friendly design. That's why all our content is optimized for desktop, tablet, and mobile devices. 
+                    By combining modern layouts like Flexbox and Grid with mobile-first principles, we ensure an engaging experience for every visitor—no 
+                    matter what screen size or device they're using to browse.
+                </p>
+
+                <section id="home">
+                    <h1>Home</h1>
+                    <p>
+                        Welcome to our website. We provide high-quality content and resources to help you succeed in your online journey. Explore our services and get in touch with us for more information or personalized assistance.
+                    </p>
+                </section>
+            
+                <section id="about">
+                    <h1>About</h1>
+                    <p>
+                        We are a passionate team of web professionals committed to helping individuals and businesses build effective, responsive websites using the latest web technologies like Flexbox, Grid, and mobile-first design.
+                    </p>
+                </section>
+            
+                <section id="services">
+                    <h1>Services</h1>
+                    <p>
+                        Our services include web design, development, training, and consulting. Whether you’re starting from scratch or improving an existing site, we tailor solutions that align with your goals and budget.
+                    </p>
+                </section>
+            
+                <section id="contact">
+                    <h1>Contact</h1>
+                    <p>
+                        Got a question or need support? Reach out to us via email at contact@example.com or use our online contact form. We’re here to help and typically respond within 24 hours.
+                    </p>
+                </section>
+            </div>
+
+            <footer>
+                <p>OneTech Solutions</p>
+            </footer>
+
+        </div>
+    </header>
 </body>
 </html>
